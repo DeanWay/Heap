@@ -2,3 +2,4 @@
 # Build
 a.out
 libheap.a
+testMain.c

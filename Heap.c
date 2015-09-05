@@ -1,5 +1,5 @@
 /*
-Author: Brandon Way
+Author: Dean Way
 */
 #include <math.h>
 #include <stdlib.h>

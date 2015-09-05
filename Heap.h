@@ -1,5 +1,5 @@
 /*
-Author: Brandon Way
+Author: Dean Way
 */
 
 #ifndef MIN_HEAP_H

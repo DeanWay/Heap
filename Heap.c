@@ -100,6 +100,11 @@ void *removeRoot(Heap *heap){
     return root;
 }
 
+/* FIXME:
+ * This operation is Dangerous. If the backing array does not
+ * have enough space allocated to support the new node, 
+ * a segmenation fault will occur
+ */
 Heap * insertNode(Heap *heap, void *node){
     heap->length += 1;
     heap->array[heap->length - 1] = node;
